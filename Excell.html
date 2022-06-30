@@ -16,20 +16,47 @@
       <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
 
      
-    </head>			
+    </head>	
+    
+    <script>
+        function DarkMode(){
+          var element = document.body;
+          element.classList.toggle("DarkMode")
+        }
+        
+      </script>
+
     <body>
         <nav class="topnavomf">
-            <a href="Index.html"><i id="leftarrow" class="fas fa-arrow-left"></i></a>
-            <img id="Omnivisiologo" alt="Omnivisiologo" src="images/logo/Omnivisiologo.png">
-        </nav>
-
+            
+            <button class="darkMode" onclick="DarkMode()"><i class="fas fa-lightbulb"></i></button>
+                 
+              
+                <input type="checkbox" id="active">
+                <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
+                <div class="wrapper">
+                  <ul>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="#">Our Vision</a></li>
+            <li><a href="#">Our Solutions</a></li>
+            <li><a href="#">Market</a></li>
+            <li><a href="#">Cas Studies</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact Us</a></li>
+            </ul>
+            </div>
+                
+      
+               </nav>
+      
+               <a href="Index.html"><img id="Omnivisiologomain" src="images/logo/6. Omni Visio Icon v1.2.png" alt="Omnivisiologo"> </a> 
         <div id="menuimage">
-    <img id="restofrançaisnote" alt="Ohmyfoodlogo" src="images/restaurants/Excell.png">
+    <img id="restofrançaisnote" alt="Ohmyfoodlogo" src="images/Services/Excell.png">
             </div>
 
             <div class="blockfrançaise">
 
-                <h2 class="shrikhandh2">Excell Solution</h2>
+                <h2 class="shrikhandh2">Excel Solution</h2>
                 <div id="heartbutton">
                     <i class="fas fa-heart"></i>
                 </div>

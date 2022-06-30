@@ -92,9 +92,11 @@
     margin: auto;
     flex-direction: row;
     height: 700px;
+    border-radius: 25px;
   }
 
   .cardsInline{
+    margin-top: 20PX;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -105,7 +107,7 @@
   #card1{
     position: relative;
     left: 2%;
-    width: 45%;
+    width: 40%;
     height: 250px;
     background-color: white;
     border-radius: 20px;
@@ -116,7 +118,7 @@
   #card2{
     position: absolute;
     right: 2%;
-    width: 45%;
+    width: 40%;
     height: 250px;
     background-color: white;
     border-radius: 20px;
@@ -127,7 +129,7 @@
   #card3{
     position: absolute;
     right: 2%;
-    width: 45%;
+    width: 40%;
     margin-top: 280px;
     height: 250px;
     background-color: white;
@@ -139,7 +141,7 @@
   #card4{
     position: absolute;
     left: 2%;
-    width: 45%;
+    width: 40%;
     margin-top: 280px;
     height: 250px;
     background-color: white;
@@ -157,6 +159,12 @@
 
 
 .fonctionnement{
+  margin-top: 0;
+  position: absolute;
+  top: 0;
+  height: auto;
+  width: 100%;
+  right: 0;
   display: flex;
   flex-direction: row;
 }
@@ -180,6 +188,7 @@ footer {
   margin: auto;
   flex-direction: column;
   justify-content: space-between;
+  border-radius: 25px 25px 0px 0px;
 }
 }
 
@@ -192,6 +201,53 @@ footer {
 
 
 @media  (max-width: 1040px) {
+
+
+  #card1{
+    position: relative;
+    left: 2%;
+    width: 40%;
+    height: 250px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 1px 19px 0px #bcbcbc;
+    color: black;
+  }
+
+  #card2{
+    position: absolute;
+    right: 2%;
+    width: 40%;
+    height: 250px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 1px 19px 0px #bcbcbc;
+    color: black;
+  }
+
+  #card3{
+    position: absolute;
+    right: 2%;
+    width: 40%;
+    margin-top: 280px;
+    height: 250px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 1px 19px 0px #bcbcbc;
+    color: black;
+  }
+
+  #card4{
+    position: absolute;
+    left: 2%;
+    width: 40%;
+    margin-top: 280px;
+    height: 250px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 1px 19px 0px #bcbcbc;
+    color: black;
+  }
 
 
 
@@ -282,6 +338,7 @@ footer {
     margin: auto;
     flex-direction: row;
     height: 700px;
+    border-radius: 25px;
   }
 
   .cardsInline{
@@ -295,7 +352,7 @@ footer {
   #card1{
     position: relative;
     left: 2%;
-    width: 45%;
+    width: 40%;
     height: 250px;
     background-color: white;
     border-radius: 20px;
@@ -306,7 +363,7 @@ footer {
   #card2{
     position: absolute;
     right: 2%;
-    width: 45%;
+    width: 40%;
     height: 250px;
     background-color: white;
     border-radius: 20px;
@@ -317,7 +374,7 @@ footer {
   #card3{
     position: absolute;
     right: 2%;
-    width: 45%;
+    width: 40%;
     margin-top: 280px;
     height: 250px;
     background-color: white;
@@ -329,7 +386,7 @@ footer {
   #card4{
     position: absolute;
     left: 2%;
-    width: 45%;
+    width: 40%;
     margin-top: 280px;
     height: 250px;
     background-color: white;
@@ -364,6 +421,10 @@ footer {
 
 
 @media (max-width:881px) {
+
+  
+
+  
 
 
 /*******************************************
@@ -460,6 +521,7 @@ footer {
     margin: auto;
     flex-direction: row;
     height: 700px;
+    border-radius: 25px;
   }
 
   .cardsInline{
@@ -473,7 +535,7 @@ footer {
   #card1{
     position: relative;
     left: 2%;
-    width: 45%;
+    width: 40%;
     height: 250px;
     background-color: white;
     border-radius: 20px;
@@ -484,7 +546,7 @@ footer {
   #card2{
     position: absolute;
     right: 2%;
-    width: 45%;
+    width: 40%;
     height: 250px;
     background-color: white;
     border-radius: 20px;
@@ -495,7 +557,7 @@ footer {
   #card3{
     position: absolute;
     right: 2%;
-    width: 45%;
+    width: 40%;
     margin-top: 280px;
     height: 250px;
     background-color: white;
@@ -507,7 +569,7 @@ footer {
   #card4{
     position: absolute;
     left: 2%;
-    width: 45%;
+    width: 40%;
     margin-top: 280px;
     height: 250px;
     background-color: white;
@@ -531,35 +593,42 @@ footer {
 
 
   #fonctionnementun {
+    background-color: #B0B0B0;
+    top: 0;
     margin: auto;
     padding: 30px 30px 30px 25px;
     border-radius: 30px 30px 30px 30px;
     display: flex;
     align-items: center;
     margin-top: 20px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     width: 80%;
+    height: 10px;
   }
   
   #fonctionnementdeux {
+
+    background-color: #B0B0B0;
+    top: 0;
     margin: auto;
     padding: 30px 30px 30px 25px;
     border-radius: 30px 30px 30px 30px;
     display: flex;
     align-items: center;
     margin-top: 20px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     width: 80%;
+    height: 10px;
   }
   
   #fonctionnementtrois {
+
+    background-color: #B0B0B0;
+    top: 0;
     margin: auto;
     padding: 30px 30px 30px 25px;
     border-radius: 30px 30px 30px 30px;
     display: flex;
     align-items: center;
     margin-top: 20px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     width: 80%;
   }
   
@@ -647,6 +716,7 @@ footer {
     display: flex;
     flex-direction: column;
     height: auto;
+    border-radius: 25px;
   }
 
   .cardsInline{
@@ -731,36 +801,43 @@ footer {
 
 
   #fonctionnementun {
+    background-color: #B0B0B0;
+    top: 0;
     margin: auto;
     padding: 30px 30px 30px 25px;
     border-radius: 30px 30px 30px 30px;
     display: flex;
     align-items: center;
     margin-top: 20px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     width: 80%;
+    height: 10px;
   }
   
   #fonctionnementdeux {
+
+    background-color: #B0B0B0;
+    top: 0;
     margin: auto;
     padding: 30px 30px 30px 25px;
     border-radius: 30px 30px 30px 30px;
     display: flex;
     align-items: center;
     margin-top: 20px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     width: 80%;
   }
   
   #fonctionnementtrois {
+
+    background-color: #B0B0B0;
+    top: 0;
     margin: auto;
     padding: 30px 30px 30px 25px;
     border-radius: 30px 30px 30px 30px;
     display: flex;
     align-items: center;
     margin-top: 20px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     width: 80%;
+    height: 10px;
   }
 
 
@@ -804,6 +881,7 @@ body {
   margin: 0;
   padding: 0px;
   width: 100%;
+  position: relative;
 }
 
 body {}
@@ -863,7 +941,7 @@ header {
   height: 50px;
   margin: 0;
   background-color: #FF79DA;
-  background-image: linear-gradient(to bottom right, #FF79DA, #9356dc);
+  background-image: linear-gradient(to bottom right, #6f2323, #404040);
   color: white;
   position: relative;
   right: 8px;
@@ -902,58 +980,67 @@ header {
 }
 
 #fonctionnementun:hover {
+  top: 0;
   background-color: #f5edff;
 }
 
 #fonctionnementdeux:hover {
+  top: 0;
   background-color: #f5edff;
 }
 
 #fonctionnementtrois:hover {
+  top: 0;
   background-color: #f5edff;
 }
 
 .fonctionnement{
+  top: 0;
   display: flex;
   align-items: center;
   
 }
 
 #fonctionnementun {
+  background-color: #B0B0B0;
+  top: 0;
   margin: auto;
   padding: 30px 30px 30px 25px;
   border-radius: 30px 30px 30px 30px;
   display: flex;
   align-items: center;
-  margin-top: 20px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   max-width: 510px;
+  height: 10px;
 }
 
 #fonctionnementdeux {
+
+  background-color: #B0B0B0;
+  top: 0;
   margin: auto;
   padding: 30px 30px 30px 25px;
   border-radius: 30px 30px 30px 30px;
   display: flex;
   align-items: center;
-  margin-top: 20px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   max-width: 510px;
+  height: 10px;
 }
 
 #fonctionnementtrois {
+
+  background-color: #B0B0B0;
+  top: 0;
   margin: auto;
   padding: 30px 30px 30px 25px;
   border-radius: 30px 30px 30px 30px;
   display: flex;
   align-items: center;
-  margin-top: 20px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   max-width: 510px;
+  height: 10px;
 }
 
 .fonctionnement i {
-  color: #bcbcbc;
+  color: black;
 }
 
 .spanF {
@@ -974,15 +1061,18 @@ header {
   text-shadow: none;
 }
 
+
+
 .fonctionnement {
-  position: relative;
+  background-color: #B0B0B0;
+  position: absolute;
   align-items: center;
-  margin-top: 20px;
   justify-content: space-between;
-  margin-left: 40px;
-  margin-right: 20px;
-  margin-bottom: 40px;
+ 
 }
+
+
+
 
 .fonctionnement h3 {
   text-align: center;
@@ -1012,6 +1102,146 @@ header {
   padding-right: 15px;
   padding-left: 15px;
 }
+
+
+
+//* début animation menu **/
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Oswald', sans-serif;
+}
+.wrapper{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  /*background: linear-gradient(-135deg, #c850c0, #4158d0);*/
+  /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
+ /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%);*/
+  /* clip-path: circle(25px at calc(0% + 45px) 45px); */
+  background: #B0B0B0;
+  clip-path: circle(25px at calc(100% - 45px) 45px);
+  transition: all 0.3s ease-in-out;
+}
+#active:checked ~ .wrapper{
+  clip-path: circle(75%);
+}
+.menu-btn{
+  position: absolute;
+  z-index: 2;
+  right: 20px;
+  /* left: 20px; */
+  top: 20px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  /*background: linear-gradient(-135deg, #c850c0, #4158d0);*/
+  /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
+ /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%); */
+  background: #353535;
+  transition: all 1.5s ease-in-out;
+}
+#active:checked ~ .menu-btn{
+  color: #fff;
+}
+#active:checked ~ .menu-btn i:before{
+  content: "\f00d";
+}
+.wrapper ul{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  list-style: none;
+  text-align: center;
+}
+.wrapper ul li{
+  margin: 15px 0;
+}
+.wrapper ul li a{
+  color: none;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 500;
+  padding: 5px 30px;
+  color: #fff;
+  border-radius: 50px;
+  background: #353535;
+  position: relative;
+  line-height: 50px;
+  transition: all 1.5s ease;
+}
+.wrapper ul li a:after{
+  position: absolute;
+  content: "";
+  background: #fff;
+   background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+  /*background: linear-gradient(375deg, #1cc7d0, #2ede98);*/
+  width: 104%;
+  height: 110%;
+  left: -2%;
+  top: -5%; /* if the font is 'Oswald'*/
+  border-radius: 50px;
+  transform: scaleY(0);
+  z-index: -1;
+  animation: rotate 1.5s linear infinite;
+  transition: transform 1.5s ease;
+}
+.wrapper ul li a:hover:after{
+  transform: scaleY(1);
+}
+.wrapper ul li a:hover{
+  color: #fff;
+}
+input[type="checkbox"]{
+  display: none;
+}
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  text-align: center;
+  width: 100%;
+  color: #202020;
+}
+.content .title{
+  font-size: 40px;
+  font-weight: 700;
+}
+.content p{
+  font-size: 35px;
+  font-weight: 600;
+}
+
+@keyframes rotate {
+  0%{
+    filter: hue-rotate(0deg);
+  }
+  100%{
+    filter: hue-rotate(360deg);
+  }
+}
+
+
+
+//* fin menu animation *//
+
+
+
+
 
 .fonctionnement :hover i {
   color: #a85ddc;
@@ -1051,8 +1281,10 @@ header {
 *******************************************/
 
 .topnavomf {
-  display: flex;
-  top: 60%;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  right: 0;
   width: 100%;
   padding-top: 15px;
   padding-bottom: 10px;
@@ -1068,26 +1300,44 @@ header {
 }
 
 #Omnivisiologo {
-  display: block;
+  display: flex;
   margin: auto;
-  width: 250px;
-  max-width: 510px;
-  height: auto;
+  max-width: 20%;
+  min-width: 200px;
+  margin: auto;
   text-align: center;
+  margin-top: -5%;
+  margin-bottom: -5%;
+}
+
+.centerlogo{
+  margin: auto;
+  margin-top: -6%;
+  text-align: center;
+  width: 10%;
+  height: auto;
+  
+
 }
 
 #Omnivisiologomain {
-  margin-left: 35%;
-  width: 30%;
-  height: auto;
+  display: flex;
+  margin: auto;
+  max-width: 20%;
+  min-width: 200px;
+  margin: auto;
+  text-align: center;
+  margin-top: -5%;
+  margin-bottom: -5%;
 }
 
 #réservez {
   display: block;
-  background-color: #f6f6f6;
+  background-color: #bcbcbc;
   margin-top: 0 !important;
   text-align: center;
   padding: 40px;
+  border-radius: 25px;
 }
 
 .localisation h3 {
@@ -1095,6 +1345,7 @@ header {
 }
 
 .localisation {
+  margin-top: 5%;
   margin-bottom: 0 !important;
   display: block;
   background-color: #eaeaea;
@@ -1227,12 +1478,48 @@ header {
 
 *******************************************/
 
-
+/**
 #restoh2 {
   padding-top: 40px;
   padding-bottom: 20px;
-  font-size: 1.4em;
+  font-size: 2.5em;
+  color: mix(#fff, #e91e63, 85%);
+	text-shadow: 
+		-0.0075em 0.0075em 0 mix(#fff, #e91e63, 94%),
+		0.005em 0.005em 0 mix(#fff, #e91e63, 60%),
+		0.01em 0.01em 0 mix(#fff, #e91e63, 62%), 
+		0.015em 0.015em mix(#fff, #e91e63, 64%), 
+		0.02em 0.02em 0 mix(#fff, #e91e63, 66%), 
+		0.025em 0.025em 0 mix(#fff, #e91e63, 68%),
+		0.03em 0.03em 0 mix(#fff, #e91e63, 70%),
+		0.035em 0.035em 0 mix(#fff, #e91e63, 72%);
+}**/
+
+
+
+.waviy {
+  position: relative;
+  margin-top:;
 }
+.waviy span {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  animation: flip 3s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
+
+
+
+
+
 
 
 /*******************************************
@@ -1243,7 +1530,7 @@ header {
 
 
 #blockrestaurants {
-  background-color: #f6f6f6;
+  background-color: #808080;
   align-items: center;
   width: 100%;
   margin-top: 20px;
@@ -1557,7 +1844,7 @@ a:active {
 
 #bouttonmenus {
   height: 50px;
-  background-image: linear-gradient(to bottom right, #FF79DA, #9356DC);
+  background-image: linear-gradient(to bottom right, #6f2323, #404040);
   color: white;
   right: 8px;
   font-weight: 900;
@@ -1850,7 +2137,7 @@ a:active {
 #bouttonmenus {
   height: 50px;
   background-color: pink;
-  background-image: linear-gradient(to bottom right, #FF79DA, #9356DC);
+  background-image: linear-gradient(to bottom right, #6f2323, #404040);
   color: white;
   position: relative;
   right: 8px;
@@ -1952,4 +2239,34 @@ a:active {
     transform: rotate3d(0, 0, 1, 720deg);
     opacity: 0;
   }
+}
+
+.DarkMode {
+  background-color: #B0B0B0;
+
+}
+
+.darkMode {
+  overflow: visible;
+  left: 0;
+  width: auto;
+  height: 30px;
+  margin: 0;
+  background-color: #FF79DA;
+  background-image: linear-gradient(to bottom right, #808080, #B0B0B0);
+  color: black;
+  position: fixed
+  font-weight: 900;
+  font-size: 18px;
+  padding: 0 10px;
+  border-radius: 60px 60px 60px 60px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 0px 1px 19px 0px #bcbcbc;
+}
+.darkMode i {
+  color: gold;
 }
