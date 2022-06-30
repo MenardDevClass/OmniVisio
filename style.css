@@ -1172,9 +1172,9 @@ header {
 .wrapper ul li a{
   color: none;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 12px;
   font-weight: 500;
-  padding: 5px 30px;
+  padding: 5px 5px;
   color: #fff;
   border-radius: 50px;
   background: #353535;
