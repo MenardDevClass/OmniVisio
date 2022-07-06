@@ -1131,7 +1131,7 @@ header {
   font-family: 'Oswald', sans-serif;
 }
 .wrapper{
-  border-radius:50% 0 50% 50% ;
+  border-radius:50% 0 0 50% ;
   position: fixed;
   z-index: 1;
   top: 0;
