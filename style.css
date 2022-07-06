@@ -886,6 +886,7 @@ footer {
 *******************************************/
 
 body {
+  background-color: #404040;
   font-family: "Roboto", Arial, "Times New Roman";
   margin: 0;
   padding: 0px;
@@ -947,6 +948,7 @@ header {
 
 
 #bouttonexplorer {
+  z-index: 2;
   height: 50px;
   margin: 0;
   background-color: #FF79DA;
@@ -967,12 +969,16 @@ header {
 }
 
 #bouttonexplorer:active {
+
+  z-index: 2;
   box-shadow: 0px 5px 30px 0px #bcbcbc;
   background-color: #3e8e41;
   transform: translateY(1px);
 }
 
 #bouttonexplorer:hover {
+
+  z-index: 2;
   box-shadow: inset 0 0 0 10em rgba(255, 255, 255, 0.3);
 }
 
@@ -1125,11 +1131,13 @@ header {
   font-family: 'Oswald', sans-serif;
 }
 .wrapper{
+  border-radius:50% 0 50% 50% ;
   position: fixed;
+  z-index: 1;
   top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
+  right: 0;
+  height: 80%;
+  width: 50%;
   /*background: linear-gradient(-135deg, #c850c0, #4158d0);*/
   /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
  /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%);*/
@@ -1142,8 +1150,8 @@ header {
   clip-path: circle(75%);
 }
 .menu-btn{
-  position: absolute;
   z-index: 2;
+  position: fixed;
   right: 20px;
   /* left: 20px; */
   top: 20px;
@@ -1153,22 +1161,23 @@ header {
   line-height: 50px;
   border-radius: 50%;
   font-size: 20px;
-  color: #fff;
+  color: #6f2323;
   cursor: pointer;
   /*background: linear-gradient(-135deg, #c850c0, #4158d0);*/
   /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
  /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%); */
-  background: #353535;
+  background: #808080;
   transition: all 1.5s ease-in-out;
 }
 #active:checked ~ .menu-btn{
-  color: #fff;
+  color: #6f2323;
 }
 #active:checked ~ .menu-btn i:before{
   content: "\f00d";
 }
 .wrapper ul{
   padding-left: 0;
+  z-index: 1;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1177,9 +1186,11 @@ header {
   text-align: center;
 }
 .wrapper ul li{
+  z-index: 1;
   margin: 15px 0;
 }
 .wrapper ul li a{
+  z-index: 1;
   color: none;
   text-decoration: none;
   font-size: 20px;
@@ -1309,7 +1320,6 @@ input[type="checkbox"]{
 *******************************************/
 
 .topnavomf {
-  position: sticky;
   top: 0;
   z-index: 100;
   right: 0;
@@ -1329,16 +1339,15 @@ input[type="checkbox"]{
 
 #Omnivisiologo {
   display: flex;
-  margin: auto;
   max-width: 20%;
   min-width: 200px;
   margin: auto;
   text-align: center;
   margin-top: -5%;
-  margin-bottom: -5%;
 }
 
 .centerlogo{
+  border-radius: 50%;
   margin: auto;
   margin-top: -6%;
   text-align: center;
@@ -1380,26 +1389,98 @@ input[type="checkbox"]{
 
 
 
+.callback{
+  margin-top: 20px;
+  position: relative;
+  display: flex;
+  transform: translate(-50%, -50%);
+}
 
+.link_wrapper{
+  left: 55%;
+text-align: center;
+  position: relative;
+}
+
+.callback a{
+  position: relative;
+  display: block;
+  min-width: 150px;
+  height: 50px;
+  line-height: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  background: #404040;
+  text-align: center;
+  color: #808080;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 3px solid #333;
+  transition: all .35s;
+}
+
+.icon{
+  width: 50px;
+  height: 50px;
+  border: 3px solid transparent;
+  position: absolute;
+  transform: rotate(45deg);
+  right: 0;
+  top: 0;
+  z-index: -1;
+  transition: all .35s;
+}
+
+.icon i{
+  width: 30px;
+  position: absolute;
+  top: calc(50% - 8px);
+  left: calc(50% - 17px);
+  transform: rotate(-45deg);
+  fill: #6f2323;
+  transition: all .35s;
+}
+
+.callback a:hover{
+  left: -25px;
+  width: 100px;
+  border: 3px solid #6f2323;
+  background: transparent;
+  color: #6f2323;
+}
+
+.callback a:hover + .icon{
+  border: 3px solid #6f2323;
+  right: -20%;
+}
 
 #Omnivisiologomain {
-  display: flex;
-  margin: auto;
-  max-width: 20%;
-  min-width: 250px;
-  margin: auto;
-  text-align: center;
-  margin-top: -5%;
-  margin-bottom: -5%;
+  padding-bottom: -200px;
+  z-index: 1;
+  position: relative;
+  left:-10px ;
+  top: 0;
+  width: 100%;
+  max-width: 250px;
+  margin-top: -10%;
 }
 
 #réservez {
+  height: 50%;
   display: block;
   background-color: #bcbcbc;
   margin-top: 0 !important;
-  text-align: center;
   padding: 40px;
   border-radius: 25px;
+
+}
+.descriptionparagraph{
+  margin-bottom:20px ;
+  text-align: center;
+  display: flex;
+  position: relative;
+
+  flex-direction: column;
 }
 
 .localisation h3 {
@@ -1562,7 +1643,7 @@ input[type="checkbox"]{
 
 .waviy {
   position: relative;
-  margin-top:;
+  margin-top:20px;
 }
 .waviy span {
   font-family: Megrim;
@@ -1937,6 +2018,7 @@ box-shadow:  2px 5px 16px 0px #404040;
   box-shadow: inset 0 0 0 10em rgba(255, 255, 255, 0.3);
 }
 .container {
+  z-index: 2;
   text-align: center;
   width: 100%;
   margin: auto;
@@ -2227,6 +2309,8 @@ box-shadow:  2px 5px 16px 0px #404040;
   transform: translateY(1px);
 }
 .container {
+
+  z-index: 2;
   text-align: center;
   width: 100%;
   margin: auto;
@@ -2325,7 +2409,7 @@ box-shadow:  2px 5px 16px 0px #404040;
   background-color: #FF79DA;
   background-image: linear-gradient(to bottom right, #808080, #B0B0B0);
   color: black;
-  position: fixed
+  position: sticky;
   font-weight: 900;
   font-size: 18px;
   padding: 0 10px;
