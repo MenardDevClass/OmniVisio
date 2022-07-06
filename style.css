@@ -1459,7 +1459,7 @@ text-align: center;
   z-index: 1;
   position: relative;
   left:-10px ;
-  top: 0;
+  top: 10px;
   width: 100%;
   max-width: 250px;
   margin-top: -10%;
@@ -1481,6 +1481,11 @@ text-align: center;
   position: relative;
 
   flex-direction: column;
+}
+
+.descriptionparagraph h1{
+  font-family: Megrim;
+  font-weight: bold;
 }
 
 .localisation h3 {
