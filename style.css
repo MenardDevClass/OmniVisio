@@ -23,6 +23,7 @@
 }
 
 .mailform{
+  background-color: #B0B0B0;
   border-radius: 25px;
   width: 50%;
   height: 50%;
@@ -97,6 +98,7 @@ font-size:30px
 }
 
 .contactdetails{
+  background-color: #808080;
   padding: 10px;
   border-radius: 25px;
   font-family: Lato;
