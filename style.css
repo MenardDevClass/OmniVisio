@@ -15,6 +15,41 @@
 
 *******************************************/
 
+.hovertext1 {
+  position: relative;
+  border-bottom: 1px dotted black;
+}
+.hovertext1 data-hover{
+  position: absolute;
+  margin-left: -100px;
+}
+.hovertext1:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: 500px;
+  background-color: #6f2323;
+  color: #fff;
+  text-align: justify;
+  border-radius: 25px;
+  padding: 15px ;
+  margin-left: -40%;
+  transition: opacity 1s ease-in-out;
+white-space: pre;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  top: 0%;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+.hovertext1:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
+
 
 
 
@@ -23,6 +58,7 @@
 }
 
 .mailform{
+  background-color: #B0B0B0;
   border-radius: 25px;
   width: 50%;
   height: 50%;
@@ -97,6 +133,7 @@ font-size:30px
 }
 
 .contactdetails{
+  background-color: #808080;
   padding: 10px;
   border-radius: 25px;
   font-family: Lato;
