@@ -64,6 +64,7 @@ color: #808080;
   margin-left: -100px;
 }
 .hovertext4:before {
+  font-weight:bold;
   content: attr(data-hover);
   visibility: hidden;
   opacity: 0;
@@ -97,6 +98,7 @@ color: #808080;
   margin-left: -100px;
 }
 .hovertext3:before {
+  font-weight:bold;
   content: attr(data-hover);
   visibility: hidden;
   opacity: 0;
@@ -131,6 +133,7 @@ color: #808080;
   margin-left: -100px;
 }
 .hovertext2:before {
+  font-weight:bold;
   content: attr(data-hover);
   visibility: hidden;
   opacity: 0;
@@ -165,6 +168,7 @@ white-space: pre;
   margin-left: -100px;
 }
 .hovertext1:before {
+  font-weight:bold;
   content: attr(data-hover);
   visibility: hidden;
   opacity: 0;
