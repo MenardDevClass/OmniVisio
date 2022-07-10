@@ -47,6 +47,72 @@ color: #808080;
   padding: 10px;
 }
 
+.hovertext4 {
+  position: relative;
+  border-bottom: 1px dotted black;
+}
+.hovertext4 data-hover{
+  position: absolute;
+  margin-left: -100px;
+}
+.hovertext4:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: auto;
+  background-color: #6f2323;
+  color: #fff;
+  text-align: justify;
+  border-radius: 25px;
+  padding: 15px ;
+  transition: opacity 1s ease-in-out;
+ white-space: pre;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  top: 0%;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+.hovertext4:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.hovertext3 {
+  position: relative;
+  border-bottom: 1px dotted black;
+}
+.hovertext3 data-hover{
+  position: absolute;
+  margin-left: -100px;
+}
+.hovertext3:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: auto;
+  right:0px;
+  background-color: #6f2323;
+  color: #fff;
+  text-align: justify;
+  border-radius: 25px;
+  padding: 15px ;
+  transition: opacity 1s ease-in-out;
+ white-space: pre;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  top: 0%;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+.hovertext3:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
 
 .hovertext2 {
   position: relative;
@@ -61,6 +127,7 @@ color: #808080;
   visibility: hidden;
   opacity: 0;
   width: auto;
+  right: 0;
   background-color: #6f2323;
   color: #fff;
   text-align: justify;
@@ -652,6 +719,74 @@ footer {
 
 @media  (max-width: 1040px) {
 
+  .hovertext4 {
+    position: relative;
+    border-bottom: 1px dotted black;
+  }
+  .hovertext4 data-hover{
+    position: absolute;
+  }
+  .hovertext4:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: auto;
+    margin-left: 0px;
+    background-color: #6f2323;
+    color: #fff;
+    text-align: justify;
+    border-radius: 25px;
+    padding: 15px ;
+    transition: opacity 1s ease-in-out;
+  white-space: pre;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    top: 0%;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  .hovertext4:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .hovertext3 {
+    position: relative;
+    border-bottom: 1px dotted black;
+  }
+  .hovertext3 data-hover{
+    position: absolute;
+    margin-left: -100px;
+  }
+  .hovertext3:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: auto;
+    margin-left: 0px;
+    right: 0;
+    background-color: #6f2323;
+    color: #fff;
+    text-align: justify;
+    border-radius: 25px;
+    padding: 15px ;
+    transition: opacity 1s ease-in-out;
+  white-space: pre;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    top: 0%;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  .hovertext3:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+  
   .hovertext2 {
     position: relative;
     border-bottom: 1px dotted black;
@@ -665,6 +800,8 @@ footer {
     visibility: hidden;
     opacity: 0;
     width: auto;
+    margin-left:0px;
+    right: 0;
     background-color: #6f2323;
     color: #fff;
     text-align: justify;
@@ -1161,19 +1298,86 @@ footer {
 
 @media (max-width:881px) {
 
+  .hovertext4 {
+    position: relative;
+    border-bottom: 1px dotted black;
+  }
+  .hovertext4 data-hover{
+    position: absolute;
+  }
+  .hovertext4:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: auto;
+    right: 0px;
+    background-color: #6f2323;
+    color: #fff;
+    text-align: justify;
+    border-radius: 25px;
+    padding: 15px ;
+    transition: opacity 1s ease-in-out;
+  white-space: pre;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    top: 0%;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  .hovertext4:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .hovertext3 {
+    position: relative;
+    border-bottom: 1px dotted black;
+  }
+  .hovertext3 data-hover{
+    position: absolute;
+    margin-left: -100px;
+  }
+  .hovertext3:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: auto;
+    right: 0;
+    background-color: #6f2323;
+    color: #fff;
+    text-align: justify;
+    border-radius: 25px;
+    padding: 15px ;
+    transition: opacity 1s ease-in-out;
+  white-space: pre;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    top: 0%;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  .hovertext3:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+
   .hovertext2 {
     position: relative;
     border-bottom: 1px dotted black;
   }
   .hovertext2 data-hover{
     position: absolute;
-    margin-left: -100px;
   }
   .hovertext2:before {
     content: attr(data-hover);
     visibility: hidden;
     opacity: 0;
     width: auto;
+    right: 0%;
     background-color: #6f2323;
     color: #fff;
     text-align: justify;
@@ -1207,6 +1411,7 @@ footer {
     visibility: hidden;
     opacity: 0;
     width: auto;
+    right: 0px;
     background-color: #6f2323;
     color: #fff;
     text-align: justify;
@@ -1681,6 +1886,73 @@ footer {
 *******************************************/
 
 
+.hovertext4 {
+  position: relative;
+  border-bottom: 1px dotted black;
+}
+.hovertext4 data-hover{
+  position: absolute;
+}
+.hovertext4:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: auto;
+  right: 0px;
+  background-color: #6f2323;
+  color: #fff;
+  text-align: justify;
+  border-radius: 25px;
+  padding: 15px ;
+  transition: opacity 1s ease-in-out;
+white-space: pre;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  top: 0%;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+.hovertext4:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.hovertext3 {
+  position: relative;
+  border-bottom: 1px dotted black;
+}
+.hovertext3 data-hover{
+  position: absolute;
+  margin-left: -100px;
+}
+.hovertext3:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: auto;
+  margin-left: 0px;
+  background-color: #6f2323;
+  color: #fff;
+  text-align: justify;
+  border-radius: 25px;
+  padding: 15px ;
+  transition: opacity 1s ease-in-out;
+white-space: pre;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  top: 0%;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+.hovertext3:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
 .hovertext2 {
   position: relative;
   border-bottom: 1px dotted black;
@@ -1694,6 +1966,7 @@ footer {
   visibility: hidden;
   opacity: 0;
   width: auto;
+  right: 0px;
   background-color: #6f2323;
   color: #fff;
   text-align: justify;
@@ -1716,11 +1989,9 @@ white-space: pre;
 
 .hovertext1 {
   position: relative;
-  width: 100%;
   border-bottom: 1px dotted black;
 }
 .hovertext1 data-hover{
-  width: 100%;
   position: absolute;
   margin-left: -100px;
 }
@@ -1728,7 +1999,7 @@ white-space: pre;
   content: attr(data-hover);
   visibility: hidden;
   opacity: 0;
-  width: 100%;
+  width: auto;
   background-color: #6f2323;
   color: #fff;
   text-align: justify;
