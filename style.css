@@ -460,6 +460,7 @@ font-size:30px
 
 
 .vision{
+   font-weight: bold;
   width: 98%;
   margin-left: 20px;
   border-radius: 25px;
@@ -727,6 +728,7 @@ footer {
     position: absolute;
   }
   .hovertext4:before {
+	  font-weight:bold;
     content: attr(data-hover);
     visibility: hidden;
     opacity: 0;
@@ -761,6 +763,7 @@ footer {
     margin-left: -100px;
   }
   .hovertext3:before {
+	  font-weight:bold;
     content: attr(data-hover);
     visibility: hidden;
     opacity: 0;
@@ -796,6 +799,7 @@ footer {
     margin-left: -100px;
   }
   .hovertext2:before {
+	  font-weight:bold;
     content: attr(data-hover);
     visibility: hidden;
     opacity: 0;
@@ -831,6 +835,7 @@ footer {
     margin-left: -100px;
   }
   .hovertext1:before {
+	  font-weight:bold;
     content: attr(data-hover);
     visibility: hidden;
     opacity: 0;
