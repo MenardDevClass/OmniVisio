@@ -15,6 +15,19 @@
 
 *******************************************/
 
+.centerlogo{
+  position: absolute;
+  border-radius: 50%;
+  margin: auto;
+  text-align: center;
+  width: 10%;
+  top: 52%;
+  left: 45%;
+  height: auto;
+  
+
+}
+
 .contactline{
   text-decoration: underline;
 }
@@ -50,7 +63,7 @@ color: #808080;
   text-align: justify;
   border-radius: 25px;
   padding: 15px ;
-  margin-left: -40%;
+  margin-left: -15%;
   transition: opacity 1s ease-in-out;
 white-space: pre;
   position: absolute;
@@ -504,7 +517,7 @@ font-size:30px
  
   
   #card1{
-    position: relative;
+    position: absolute;
     left: 2%;
     width: 40%;
     height: 250px;
@@ -604,6 +617,41 @@ footer {
 
 @media  (max-width: 1040px) {
 
+
+
+  .hovertext1 {
+    position: relative;
+    border-bottom: 1px dotted black;
+  }
+  .hovertext1 data-hover{
+    position: absolute;
+    margin-left: -100px;
+  }
+  .hovertext1:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 500px;
+    background-color: #6f2323;
+    color: #fff;
+    text-align: justify;
+    border-radius: 25px;
+    padding: 15px ;
+    margin-left: -20%;
+    transition: opacity 1s ease-in-out;
+  white-space: pre;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    top: 0%;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  .hovertext1:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
 
   .mailform{
     background-color: #B0B0B0;
@@ -716,7 +764,7 @@ footer {
     margin-top: 80px;
     position: absolute;
     left: 2%;
-    top: 79%;
+    top: 72%;
     width: 30%;
     height: 7%;
     background-color: white;
@@ -727,7 +775,7 @@ footer {
   #residential{
     margin-top: 80px;
     position: absolute;
-    top: 79%;
+    top: 72%;
     left: 33%;
     width: 30%;
     height: 7%;
@@ -821,7 +869,7 @@ footer {
 
 
   #card1{
-    position: relative;
+    position: absolute;
     left: 2%;
     width: 40%;
     height: 250px;
@@ -976,7 +1024,7 @@ footer {
 
   
   #card1{
-    position: relative;
+    position: absolute;
     left: 2%;
     width: 40%;
     height: 250px;
@@ -1048,6 +1096,19 @@ footer {
 
 @media (max-width:881px) {
 
+
+  .centerlogo{
+    position: absolute;
+    border-radius: 50%;
+    margin: auto;
+    text-align: center;
+    width: 10%;
+    top: 52%;
+    left: 45%;
+    height: auto;
+    
+  
+  }
 
   #wpform input{
     margin-top: 5px;
@@ -1158,7 +1219,7 @@ footer {
     margin-top: 80px;
     position: absolute;
     left: 2%;
-    top: 81%;
+    top: 77%;
     width: 30%;
     height: 7%;
     background-color: white;
@@ -1169,7 +1230,7 @@ footer {
   #residential{
     margin-top: 80px;
     position: absolute;
-    top: 81%;
+    top: 77%;
     left: 33%;
     width: 30%;
     height: 7%;
@@ -1370,7 +1431,7 @@ footer {
  
   
   #card1{
-    position: relative;
+    position: absolute;
     left: 2%;
     width: 40%;
     height: 250px;
@@ -1565,7 +1626,7 @@ color: #808080;
  .market{
     border-radius: 25px;
     background-color: #6f2323;
-    height: 1600px;
+    height: 1780px;
       margin-top: 20PX;
       width: 98%;
       text-align: center;
@@ -1579,7 +1640,7 @@ color: #808080;
   #commercial{
     margin-top: 80px;
     position: absolute;
-    top: 62%;
+    top: 57%;
     left: 2%;
     width: 96%;
     height: 5%;
@@ -1595,7 +1656,7 @@ color: #808080;
     left: 2%;
     width: 96%;
     height: 5%;
-    top: 68%;
+    top: 63%;
     background-color: white;
     border-radius: 20px;
     box-shadow: 0px 1px 19px 0px #bcbcbc;
@@ -1605,7 +1666,7 @@ color: #808080;
     margin-top: 80px;
     position: absolute;
     left: 2%;
-    top: 74%;
+    top: 69%;
     width: 96%;
     height: 5%;
     background-color: white;
@@ -1616,7 +1677,7 @@ color: #808080;
   #residential{
     margin-top: 80px;
     position: absolute;
-    top: 80%;
+    top: 75%;
     left: 2%;
     width: 96%;
     height: 5%;
@@ -1629,7 +1690,7 @@ color: #808080;
     margin-top: 80px;
     position: absolute;
     left: 2%;
-    top: 86%;
+    top: 81%;
     width: 96%;
     height: 5%;
     background-color: white;
@@ -2405,11 +2466,13 @@ input[type="checkbox"]{
 }
 
 .centerlogo{
+  position: absolute;
   border-radius: 50%;
   margin: auto;
-  margin-top: -6%;
   text-align: center;
   width: 10%;
+  top: 52%;
+  left: 45%;
   height: auto;
   
 
