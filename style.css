@@ -15,6 +15,9 @@
 
 *******************************************/
 
+
+
+
 .centerlogo{
   position: absolute;
   border-radius: 50%;
@@ -45,6 +48,39 @@ color: #808080;
 }
 
 
+.hovertext2 {
+  position: relative;
+  border-bottom: 1px dotted black;
+}
+.hovertext2 data-hover{
+  position: absolute;
+  margin-left: -100px;
+}
+.hovertext2:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: auto;
+  background-color: #6f2323;
+  color: #fff;
+  text-align: justify;
+  border-radius: 25px;
+  padding: 15px ;
+  transition: opacity 1s ease-in-out;
+white-space: pre;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  top: 0%;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+.hovertext2:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
 .hovertext1 {
   position: relative;
   border-bottom: 1px dotted black;
@@ -57,15 +93,14 @@ color: #808080;
   content: attr(data-hover);
   visibility: hidden;
   opacity: 0;
-  width: 500px;
+  width: auto;
   background-color: #6f2323;
   color: #fff;
   text-align: justify;
   border-radius: 25px;
   padding: 15px ;
-  margin-left: -15%;
   transition: opacity 1s ease-in-out;
-white-space: pre;
+ white-space: pre;
   position: absolute;
   z-index: 1;
   display: flex;
@@ -617,8 +652,39 @@ footer {
 
 @media  (max-width: 1040px) {
 
-
-
+  .hovertext2 {
+    position: relative;
+    border-bottom: 1px dotted black;
+  }
+  .hovertext2 data-hover{
+    position: absolute;
+    margin-left: -100px;
+  }
+  .hovertext2:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: auto;
+    background-color: #6f2323;
+    color: #fff;
+    text-align: justify;
+    border-radius: 25px;
+    padding: 15px ;
+    transition: opacity 1s ease-in-out;
+  white-space: pre;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    top: 0%;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  .hovertext2:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+  
   .hovertext1 {
     position: relative;
     border-bottom: 1px dotted black;
@@ -631,15 +697,14 @@ footer {
     content: attr(data-hover);
     visibility: hidden;
     opacity: 0;
-    width: 500px;
+    width: auto;
     background-color: #6f2323;
     color: #fff;
     text-align: justify;
     border-radius: 25px;
     padding: 15px ;
-    margin-left: -20%;
     transition: opacity 1s ease-in-out;
-  white-space: pre;
+   white-space: pre;
     position: absolute;
     z-index: 1;
     display: flex;
@@ -1096,6 +1161,71 @@ footer {
 
 @media (max-width:881px) {
 
+  .hovertext2 {
+    position: relative;
+    border-bottom: 1px dotted black;
+  }
+  .hovertext2 data-hover{
+    position: absolute;
+    margin-left: -100px;
+  }
+  .hovertext2:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: auto;
+    background-color: #6f2323;
+    color: #fff;
+    text-align: justify;
+    border-radius: 25px;
+    padding: 15px ;
+    transition: opacity 1s ease-in-out;
+  white-space: pre;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    top: 0%;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  .hovertext2:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .hovertext1 {
+    position: relative;
+    border-bottom: 1px dotted black;
+  }
+  .hovertext1 data-hover{
+    position: absolute;
+    margin-left: -100px;
+  }
+  .hovertext1:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: auto;
+    background-color: #6f2323;
+    color: #fff;
+    text-align: justify;
+    border-radius: 25px;
+    padding: 15px ;
+    transition: opacity 1s ease-in-out;
+   white-space: pre;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    top: 0%;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  .hovertext1:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
 
   .centerlogo{
     position: absolute;
@@ -1549,6 +1679,75 @@ footer {
         display menus
 
 *******************************************/
+
+
+.hovertext2 {
+  position: relative;
+  border-bottom: 1px dotted black;
+}
+.hovertext2 data-hover{
+  position: absolute;
+  margin-left: -100px;
+}
+.hovertext2:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: auto;
+  background-color: #6f2323;
+  color: #fff;
+  text-align: justify;
+  border-radius: 25px;
+  padding: 15px ;
+  transition: opacity 1s ease-in-out;
+white-space: pre;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  top: 0%;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+.hovertext2:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.hovertext1 {
+  position: relative;
+  width: 100%;
+  border-bottom: 1px dotted black;
+}
+.hovertext1 data-hover{
+  width: 100%;
+  position: absolute;
+  margin-left: -100px;
+}
+.hovertext1:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: 100%;
+  background-color: #6f2323;
+  color: #fff;
+  text-align: justify;
+  border-radius: 25px;
+  padding: 15px ;
+  transition: opacity 1s ease-in-out;
+ white-space: pre;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  top: 0%;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+.hovertext1:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
 
 .socialboxmain{
   border-radius:25px;
