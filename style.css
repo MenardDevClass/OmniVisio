@@ -16,7 +16,15 @@
 *******************************************/
 
 
+#OurVISION{
+  text-align: center;
+  margin: 0 auto;
+}
 
+#OurMARKETS{
+  text-align: center;
+  margin: 0 auto;
+}
 
 .centerlogo{
   position: absolute;
